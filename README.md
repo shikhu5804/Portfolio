@@ -45,7 +45,7 @@ Make sure you have **Node.js 18+** installed. You can check with `node -v`.
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/shikhu5804/an.git
+git clone https://github.com/shikhu5804/portfolio.git
 cd an
 ```
 
