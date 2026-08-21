@@ -26,8 +26,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return constructMetadata({
     title,
-    description: description || `Read ${title} by Aarab Nishchal`,
-    keywords: keywords.length > 0 ? keywords : ["Aarab Nishchal", "Blog"],
+    description: description || `Read ${title} by Shikhar Verma`,
+    keywords: keywords.length > 0 ? keywords : ["Shikhar Verma", "Blog"],
     image: coverUrl,
     path: `/blogs/${slug}`,
     type: "article",
@@ -48,7 +48,7 @@ export default async function BlogPostPage({ params }: Props) {
   const articleJsonLd = generateArticleJsonLd({
     title: post.meta.title,
     description:
-      post.meta.description || `Read ${post.meta.title} by Aarab Nishchal`,
+      post.meta.description || `Read ${post.meta.title} by Shikhar Verma`,
     url: `${SITE_SEO.siteUrl}/blogs/${slug}`,
     datePublished: post.meta.date,
     image: post.meta.coverUrl,

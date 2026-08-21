@@ -23,11 +23,11 @@ export const LicenseContactBanner = () => {
       </div>
 
       <a
-        href={`mailto:${profile.email}?subject=License%20Inquiry%20-%20Aarab%20Nishchal%20Portfolio`}
+        href={`mailto:${profile.email}?subject=License%20Inquiry%20-%20Shikhar%20Verma%20Portfolio`}
         className="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-accent/40 bg-accent/10 hover:bg-accent/20 text-accent font-mono text-xs font-bold uppercase tracking-wider transition-all duration-200 shrink-0"
       >
         <Mail className="w-4 h-4" />
-        <span>Contact Aarab</span>
+        <span>Contact Shikhar</span>
       </a>
     </motion.div>
   );

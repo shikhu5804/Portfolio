@@ -87,7 +87,7 @@ export async function GET() {
       posts.forEach((post) => {
         const postUrl = `${baseUrl}/blogs/${post.slug}`;
         const dateStr = post.date ? new Date(post.date).toLocaleDateString() : "";
-        content += `- [${post.title}](${postUrl})${dateStr ? ` (${dateStr})` : ""}: ${post.description || "Technical article by Aarab Nishchal"}\n`;
+        content += `- [${post.title}](${postUrl})${dateStr ? ` (${dateStr})` : ""}: ${post.description || "Technical article by Shikhar Verma"}\n`;
       });
     } else {
       content += `- [Blog & Articles Index](${baseUrl}/blogs): Technical articles and guides on Next.js, React, and AI engineering.\n`;

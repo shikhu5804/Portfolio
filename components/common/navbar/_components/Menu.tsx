@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/sheet";
 import { socials } from "@/constant";
 
-const RESUME_PATH = "/docs/aarab_nishchal_resume.pdf";
+const RESUME_PATH = "/docs/shikhar_verma_resume.pdf";
 
 export interface MenuItem {
   label: string;
@@ -167,7 +167,7 @@ export const Menu = () => {
                     {item.isDownload ? (
                       <a
                         href={item.link}
-                        download="Aarab_Nishchal_Resume.pdf"
+                        download="Shikhar_Verma_Resume.pdf"
                         onClick={() => setOpen(false)}
                         className="h-auto py-2 px-3 bg-accent/10 hover:bg-accent/20 border border-accent/30 text-accent rounded-xl transition-all duration-200 flex items-center justify-between"
                       >

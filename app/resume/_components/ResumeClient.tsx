@@ -7,7 +7,7 @@ import { ArrowLeft, Download, ExternalLink, RefreshCw } from "lucide-react";
 
 import { Footer, Navbar } from "@/components/common";
 
-const RESUME_PATH = "/docs/aarab_nishchal_resume.pdf";
+const RESUME_PATH = "/docs/shikhar_verma_resume.pdf";
 
 export default function ResumeClient() {
   const [key, setKey] = useState(0);
@@ -63,7 +63,7 @@ export default function ResumeClient() {
                 whileTap={{ scale: 0.96 }}
                 transition={{ type: "spring", stiffness: 400, damping: 25 }}
                 href={RESUME_PATH}
-                download="Aarab_Nishchal_Resume.pdf"
+                download="Shikhar_Verma_Resume.pdf"
                 className="inline-flex items-center gap-2 text-xs font-mono px-4.5 py-2 rounded-xl border border-accent/40 bg-accent text-accent-foreground hover:bg-accent/90 transition-all cursor-pointer shadow-md font-semibold"
               >
                 <Download className="w-3.5 h-3.5" />
@@ -84,36 +84,13 @@ export default function ResumeClient() {
               data={`${RESUME_PATH}#toolbar=1&navpanes=0&scrollbar=1`}
               type="application/pdf"
               className="w-full h-full border-0"
-              aria-label="Aarab Nishchal Resume PDF"
+              aria-label="Shikhar Verma Resume PDF"
             >
               <iframe
                 src={`${RESUME_PATH}#toolbar=1&navpanes=0&scrollbar=1`}
                 className="w-full h-full border-0"
-                title="Aarab Nishchal Resume PDF"
-              >
-                <div className="flex flex-col items-center justify-center h-full p-8 text-center space-y-4 bg-card/80">
-                  <p className="text-sm text-muted-foreground">
-                    Your browser does not support embedded PDF preview.
-                  </p>
-                  <div className="flex items-center gap-3">
-                    <a
-                      href={RESUME_PATH}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="px-4 py-2 rounded-xl bg-accent text-accent-foreground font-mono text-xs font-semibold"
-                    >
-                      View PDF Fullscreen
-                    </a>
-                    <a
-                      href={RESUME_PATH}
-                      download="aarab_nishchal_resume.pdf"
-                      className="px-4 py-2 rounded-xl border border-border text-foreground font-mono text-xs"
-                    >
-                      Download PDF
-                    </a>
-                  </div>
-                </div>
-              </iframe>
+                title="Shikhar Verma Resume PDF"
+              />
             </object>
           </motion.div>
         </main>

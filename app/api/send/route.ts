@@ -11,11 +11,11 @@ function sanitize(input: string): string {
 }
 
 const ALLOWED_ORIGINS = [
-  "https://aarab.vercel.app",
+  "https://shikharverma.vercel.app",
   "http://localhost:3000",
   "http://localhost:3001",
-  "https://aarab.me",
-  "https://www.aarab.me",
+  "https://shikharverma.me",
+  "https://www.shikharverma.me",
 ];
 
 export async function POST(request: NextRequest) {
@@ -113,7 +113,7 @@ export async function POST(request: NextRequest) {
   );
 
   const message = {
-    from: `"Aarab Nishchal - Contact" <${process.env.email_from}>`,
+    from: `"Shikhar Verma - Contact" <${process.env.email_from}>`,
     to: `${cleanName} <${cleanEmail}>`,
     subject: "Your message has landed! 🚀 We'll get back to you shortly",
     html: htmlContent,

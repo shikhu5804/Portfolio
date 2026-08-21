@@ -86,7 +86,7 @@ export function generatePersonJsonLd() {
     name: SITE_SEO.author.name,
     url: SITE_SEO.siteUrl,
     email: SITE_SEO.author.email,
-    jobTitle: "AI Engineer Intern & Full-Stack Developer",
+    jobTitle: "Frontend Web Intern & Full-Stack Developer",
     sameAs: Array.from(SITE_SEO.socialLinks),
   };
 }
@@ -127,7 +127,7 @@ export function generateWebSiteJsonLd() {
       },
       {
         "@type": "DigitalDocument",
-        name: "Aarab Nishchal Resume PDF",
+        name: "Shikhar Verma Resume PDF",
         fileFormat: "application/pdf",
         url: `${SITE_SEO.siteUrl}/direct-resume`,
       },
@@ -150,25 +150,25 @@ export function generateSiteNavigationJsonLd() {
     {
       name: "Projects & Selected Works",
       description:
-        "Explore full-stack web applications, AI tools, and open-source GitHub repositories created by Aarab Nishchal.",
+        "Explore full-stack web applications, frontend projects, and open-source GitHub repositories created by Shikhar Verma.",
       url: `${baseUrl}/projects`,
     },
     {
       name: "Blog & Technical Articles",
       description:
-        "Read technical articles and insights on full-stack development, Next.js, and AI engineering.",
+        "Read technical articles and insights on frontend web development, React, and Next.js.",
       url: `${baseUrl}/blogs`,
     },
     {
       name: "Resume & Curriculum Vitae",
       description:
-        "Professional background, technical skills, education, and career experience of Aarab Nishchal.",
+        "Professional background, technical skills, education, and career experience of Shikhar Verma.",
       url: `${baseUrl}/resume`,
     },
     {
       name: "Direct Resume PDF",
       description:
-        "Direct view and download of the official resume PDF of Aarab Nishchal.",
+        "Direct view and download of the official resume PDF of Shikhar Verma.",
       url: `${baseUrl}/direct-resume`,
     },
     {

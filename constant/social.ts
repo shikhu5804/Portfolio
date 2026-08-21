@@ -22,50 +22,20 @@ interface Social {
 export const socials = [
   {
     name: "GitHub",
-    handle: "aarabii",
-    url: "https://github.com/aarabii",
+    handle: "shikhu5804",
+    url: "https://github.com/shikhu5804",
     icon: FaGithub,
   },
   {
     name: "LinkedIn",
-    handle: "aarab-nishchal",
-    url: "https://linkedin.com/in/aarab-nishchal",
+    handle: "vrmashikhar",
+    url: "https://linkedin.com/in/vrmashikhar",
     icon: FaLinkedin,
   },
   {
-    name: "Instagram",
-    handle: "aarab.ii",
-    url: "https://instagram.com/aarab.ii",
-    icon: FaInstagram,
-  },
-  {
-    name: "X",
-    handle: "aarab_ii",
-    url: "https://x.com/aarab_ii",
-    icon: FaXTwitter,
-  },
-  {
     name: "LeetCode",
-    handle: "aarabii",
-    url: "https://leetcode.com/u/aarabii",
+    handle: "shikhu5804",
+    url: "https://leetcode.com/u/shikhu5804",
     icon: SiLeetcode,
-  },
-  {
-    name: "Facebook",
-    handle: "zzcwc",
-    url: "https://facebook.com/zzcwc",
-    icon: FaFacebook,
-  },
-  {
-    name: "Snapchat",
-    handle: "aarab.ii",
-    url: "https://snapchat.com/add/aarab.ii",
-    icon: FaSnapchat,
-  },
-  {
-    name: "Telegram",
-    handle: "aarab_ii",
-    url: "https://t.me/aarab_ii",
-    icon: FaTelegram,
   },
 ] satisfies Social[];

@@ -20,7 +20,7 @@ export const CodingStatsSlide = () => {
           // GitHub Metrics
         </span>
         <span className="font-mono text-xs text-neutral-400">
-          @{github?.handle || "aarabii"}
+          @{github?.handle || "shikhu5804"}
         </span>
       </div>
 

@@ -34,18 +34,18 @@ export const HUMAN_LICENSE_SUMMARY: {
       "Attribution on your live deployed site is optional (footer credit link appreciated!).",
       "Keeping the LICENSE file in your repository satisfies all mandatory credit requirements.",
       "Personal bio, photos, resume details, and project content must be replaced with your own.",
-      "No trademark rights granted to Aarab Nishchal's name, logo, or brand identity.",
+      "No trademark rights granted to Shikhar Verma's name, logo, or brand identity.",
     ],
   },
 };
 
 export const RAW_LICENSE_TEXT = `# Custom Portfolio License
 
-Copyright (c) 2026 Aarab Nishchal
+Copyright (c) 2026 Shikhar Verma
 
 This license governs the use, modification, and distribution of this
 software and its associated source code, design, and documentation
-(collectively, the "Software"), authored and owned by Aarab Nishchal
+(collectively, the "Software"), authored and owned by Shikhar Verma
 (the "Author").
 
 By cloning, forking, downloading, or otherwise using the Software, you

@@ -1,6 +1,6 @@
-# 🚀 Aarab Nishchal — Developer Portfolio & Dynamic Blog
+# 🚀 Shikhar Verma — Developer Portfolio & Dynamic Blog
 
-Welcome to the official source code for **Aarab Nishchal's Developer Portfolio & Dynamic Blog**. Built with Next.js 16, React 19, Tailwind CSS v4, Motion, GSAP, and a Notion-powered CMS, this portfolio is designed to be sleek, fast, highly customizable, and expressive.
+Welcome to the official source code for **Shikhar Verma's Developer Portfolio & Dynamic Blog**. Built with Next.js 16, React 19, Tailwind CSS v4, Motion, GSAP, and a Notion-powered CMS, this portfolio is designed to be sleek, fast, highly customizable, and expressive.
 
 Whether you're looking for design inspiration, interested in how the Notion CMS integration works under the hood, or want to clone and adapt this template for your own developer journey, this README has everything you need!
 
@@ -45,7 +45,7 @@ Make sure you have **Node.js 18+** installed. You can check with `node -v`.
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/aarabii/an.git
+git clone https://github.com/shikhu5804/an.git
 cd an
 ```
 
@@ -204,14 +204,14 @@ NOTION_API_KEY=your_notion_integration_secret_token
 NOTION_DATABASE_ID=your_32_character_notion_database_id
 
 # Public Site Configuration (Optional)
-NEXT_PUBLIC_SITE_URL=https://aarab.vercel.app
+NEXT_PUBLIC_SITE_URL=https://shikharverma.vercel.app
 ```
 
 ---
 
 ## 📄 License & Terms of Usage
 
-This project is licensed under a **Custom Portfolio License** (see [LICENSE](file:///d:/NextJS/an-v6/LICENSE)).
+This project is licensed under a **Custom Portfolio License** (see LICENSE).
 
 ### 💚 What You CAN Do
 
@@ -226,4 +226,4 @@ This project is licensed under a **Custom Portfolio License** (see [LICENSE](fil
 
 ---
 
-Crafted with ❤️ by [Aarab Nishchal](https://github.com/aarabii)
+Crafted with ❤️ by [Shikhar Verma](https://github.com/shikhu5804) (Based on template by [Aarab Nishchal](https://github.com/aarabii))

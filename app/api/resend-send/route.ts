@@ -8,16 +8,15 @@ function sanitize(input: string): string {
 }
 
 const ALLOWED_ORIGINS = [
-  "https://aarab.vercel.app",
+  "https://shikharverma.vercel.app",
   "http://localhost:3000",
   "http://localhost:3001",
-  "https://aarab.me",
-  "https://www.aarab.me",
+  "https://shikharverma.me",
+  "https://www.shikharverma.me",
 ];
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: NextRequest) {
+  const resend = new Resend(process.env.RESEND_API_KEY || "re_dummy");
   const origin =
     request.headers.get("origin") || request.headers.get("referer") || "";
   const isAllowed = ALLOWED_ORIGINS.some((allowed) =>
@@ -129,7 +128,7 @@ export async function POST(request: NextRequest) {
   try {
     const fromAddress =
       process.env.RESEND_FROM_EMAIL ||
-      "Aarab Nishchal <no-reply@contact.aarab.me>";
+      "Shikhar Verma <no-reply@contact.shikharverma.me>";
 
     const { data, error } = await resend.emails.send({
       from: fromAddress,

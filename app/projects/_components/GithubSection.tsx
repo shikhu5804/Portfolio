@@ -48,7 +48,7 @@ export const GithubSection: React.FC<GithubSectionProps> = ({
               // More Repositories on GitHub
             </h2>
             <p className="text-[11px] font-mono text-neutral-500">
-              Public repos from @aarabii
+              Public repos from @shikhu5804
             </p>
           </div>
         </div>

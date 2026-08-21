@@ -32,34 +32,34 @@ function resolveSiteUrl() {
 }
 
 export const SITE_SEO = {
-  siteName: "Aarab Nishchal",
-  siteTitle: "Aarab Nishchal - AI Engineer & Full-Stack Developer",
+  siteName: "Shikhar Verma",
+  siteTitle: "Shikhar Verma - Frontend Web Intern & Full-Stack Developer",
   siteUrl: resolveSiteUrl(),
-  titleTemplate: "%s | Aarab Nishchal",
+  titleTemplate: "%s | Shikhar Verma",
   defaultDescription:
-    "Personal portfolio, articles, full-stack projects, and CV of Aarab Nishchal — AI Engineer Intern & Full-Stack Developer specializing in Next.js, React, Node.js, and LLM integrations.",
+    "Personal portfolio, projects, and CV of Shikhar Verma — Frontend Web Intern & Full-Stack Developer specializing in React, Next.js, TypeScript, and modern web applications.",
   defaultKeywords: [
-    "Aarab Nishchal",
-    "Aarab Nishchal Portfolio",
-    "AI Engineer",
+    "Shikhar Verma",
+    "Shikhar Verma Portfolio",
+    "Frontend Web Developer",
     "Full Stack Developer",
     "Next.js Developer",
     "React Developer",
     "TypeScript Developer",
     "Software Engineer Portfolio",
-    "KIIT Student Developer",
+    "IIIT Ranchi Student Developer",
     "Web Developer India",
   ],
   author: {
-    name: "Aarab Nishchal",
+    name: "Shikhar Verma",
     url: resolveSiteUrl(),
-    email: "aarab.nishchal@gmail.com",
-    handle: `@${githubSocial?.handle || "aarabii"}`,
+    email: "vrmashikhar@gmail.com",
+    handle: `@${githubSocial?.handle || "shikhu5804"}`,
   },
-  creator: "Aarab Nishchal",
-  publisher: "Aarab Nishchal",
+  creator: "Shikhar Verma",
+  publisher: "Shikhar Verma",
   defaultOgImage: "/images/thumbnail.png",
-  twitterHandle: `@${xSocial?.handle || "aarab_ii"}`,
+  twitterHandle: `@${githubSocial?.handle || "shikhu5804"}`,
   socialLinks: socials.map((s) => s.url),
   locale: "en_US",
   themeColor: "#000000",
@@ -82,13 +82,13 @@ export const PAGE_SEO: Record<
   PageSeoConfig
 > = {
   home: {
-    title: "Aarab Nishchal - AI Engineer & Full-Stack Developer",
+    title: "Shikhar Verma - Frontend Web Intern & Full-Stack Developer",
     description:
-      "Welcome to the official portfolio of Aarab Nishchal. Discover full-stack web applications, AI engineering projects, technical articles, and experience.",
+      "Welcome to the official portfolio of Shikhar Verma. Discover web applications, frontend projects, technical experience, and achievements.",
     keywords: [
-      "Aarab Nishchal",
-      "Aarab Nishchal Portfolio",
-      "AI Engineer",
+      "Shikhar Verma",
+      "Shikhar Verma Portfolio",
+      "Frontend Developer",
       "Full Stack Developer",
       "Next.js Portfolio",
       "React Engineer",
@@ -99,12 +99,13 @@ export const PAGE_SEO: Record<
   projects: {
     title: "Projects & Works",
     description:
-      "Explore full-stack web applications, AI tools, CLI automation frameworks, and open-source GitHub repositories created by Aarab Nishchal.",
+      "Explore full-stack web applications, frontend platforms, and open-source GitHub repositories created by Shikhar Verma.",
     keywords: [
-      "Aarab Nishchal Projects",
+      "Shikhar Verma Projects",
       "Full Stack Applications",
-      "AI Tools",
-      "Open Source GitHub Repositories",
+      "Movie Streaming Site",
+      "Expense Splitting App",
+      "Real Time Chat App",
       "Next.js Projects",
       "React Projects",
       "Developer Portfolio",
@@ -115,13 +116,13 @@ export const PAGE_SEO: Record<
   blogs: {
     title: "Blog & Technical Articles",
     description:
-      "Explore technical articles, tutorials, and insights on full-stack development, Next.js, AI engineering, and software design by Aarab Nishchal.",
+      "Explore technical articles, tutorials, and insights on frontend web development, React, Next.js, and web application design by Shikhar Verma.",
     keywords: [
-      "Aarab Nishchal Blog",
+      "Shikhar Verma Blog",
       "Web Development Articles",
       "Next.js Tutorials",
       "React Blog",
-      "AI Software Engineering",
+      "Frontend Engineering",
       "Developer Blog",
     ],
     path: "/blogs",
@@ -130,11 +131,11 @@ export const PAGE_SEO: Record<
   resume: {
     title: "Resume & CV",
     description:
-      "Curriculum vitae and professional experience of Aarab Nishchal - AI Engineer Intern & Full-Stack Developer specializing in Next.js, React, Node.js, and LLM integrations.",
+      "Curriculum vitae and professional experience of Shikhar Verma - Frontend Web Intern & Full-Stack Developer specializing in React, Next.js, and TypeScript.",
     keywords: [
-      "Aarab Nishchal Resume",
-      "Aarab Nishchal CV",
-      "AI Engineer Resume",
+      "Shikhar Verma Resume",
+      "Shikhar Verma CV",
+      "Frontend Developer Resume",
       "Software Developer Resume",
       "Full Stack Developer CV",
       "Next.js Developer Resume",
@@ -146,9 +147,9 @@ export const PAGE_SEO: Record<
   license: {
     title: "License & Terms of Usage",
     description:
-      "Official software license, usage permissions, restrictions, and copyright terms for Aarab Nishchal's portfolio source code and design system.",
+      "Official software license, usage permissions, restrictions, and copyright terms for Shikhar Verma's portfolio source code and design system.",
     keywords: [
-      "Aarab Nishchal",
+      "Shikhar Verma",
       "Portfolio License",
       "Software License",
       "Open Source License",

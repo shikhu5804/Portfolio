@@ -29,7 +29,7 @@ export function EmailTemplate({
   userMessage,
 }: EmailTemplateProps) {
   const previewText =
-    "Thank you for reaching out to Aarab Nishchal. Your message has been received.";
+    "Thank you for reaching out to Shikhar Verma. Your message has been received.";
 
   return (
     <Html>
@@ -42,8 +42,8 @@ export function EmailTemplate({
             <Row>
               <Column style={{ width: "48px" }}>
                 <Img
-                  src="https://raw.githubusercontent.com/aarabii/An/refs/heads/master/public/images/logo.png"
-                  alt="AN Logo"
+                  src="https://raw.githubusercontent.com/shikhu5804/An/refs/heads/master/public/images/logo.png"
+                  alt="SV Logo"
                   width="40"
                   height="40"
                   style={logoStyle}

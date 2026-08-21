@@ -47,57 +47,57 @@ interface Profile {
 
 export const profile: Profile = {
   name: {
-    full: "Aarab Nishchal",
-    first: "Aarab",
-    last: "Nishchal",
+    full: "Shikhar Verma",
+    first: "Shikhar",
+    last: "Verma",
   },
 
-  email: "aarab.nishchal@gmail.com",
+  email: "vrmashikhar@gmail.com",
 
   work: {
-    title: "AI Engineer Intern",
-    company: "Ascend HSI",
+    title: "Frontend Web Intern",
+    company: "ReachFast.ai",
   },
 
   education: {
-    uni: "Kalinga Institute of Industrial Technology - KIIT",
+    uni: "Indian Institute of Information Technology, Ranchi",
     degree: "B. Tech",
-    major: "Computer Science and Engineering",
-    batch: "2022 - 2026",
+    major: "Electronics and Communication Engineering",
+    batch: "2023 - 2027",
     location: {
-      city: "Bhubaneswar",
-      state: "Odisha",
+      city: "Ranchi",
+      state: "Jharkhand",
     },
   },
 
   DOB: {
-    dd: 8,
-    mm: 9,
+    dd: 5,
+    mm: 8,
     yyyy: 2004,
   },
 
   curr_location: {
-    city: "Katihar",
-    state: "Bihar",
+    city: "Kanpur",
+    state: "Uttar Pradesh",
   },
 
   about: [
-    "I build things, break things, and occasionally fix things that weren't broken in the first place. Somewhere between bad ideas and too much curiosity, good software tends to happen.",
-    "I have a dangerous amount of confidence for someone whose first solution is usually 'fuck it, let's see what happens.' Surprisingly, this has worked more often than it should.",
-    "I don't have everything figured out, and that's kind of the point. I chase whatever looks interesting, disappear down unnecessary rabbit holes, and somehow come back with either something cool or a very specific lesson on what never to do again.",
-    "Still learning. Still shipping. Still pretending console.log was part of the debugging strategy all along.",
+    "Frontend Web Intern at ReachFast.ai with experience building high-performance web applications, email automation systems, and scalable UI components using React, Next.js, and TypeScript.",
+    "Passionate about building responsive, user-friendly digital experiences with modern web technologies including Next.js, Redux, Socket.IO, Tailwind CSS, and cloud databases.",
+    "Smart India Hackathon (SIH-2023) internal round selection, top 5% JEE aspirant, and active problem solver with 300+ DSA problems solved across coding platforms.",
+    "Driven by continuous learning, clean architecture, reusable UI component design, and building impactful full-stack & frontend web applications.",
   ],
 
   hero_titles: {
-    constant_word: "Stay",
+    constant_word: "Build",
     rotating_words: [
-      "Goated 🐐",
-      "Unbothered",
-      "Unmatched",
-      "Unhinged",
-      "Unfuckwithable",
+      "Frontend UIs 🚀",
+      "Full-Stack Apps 💻",
+      "Web Experiences 🎨",
+      "Real-Time Platforms ⚡",
+      "Modern Web Apps 🔥",
     ],
   },
 
-  quote: "Stay GOATED 🐐",
+  quote: "Build with passion. Solve with precision. 🚀",
 };

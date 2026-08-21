@@ -10,115 +10,57 @@ export interface Project {
 
 export const selected_works: Project[] = [
   {
-    name: "KodaArc",
+    name: "Splitr – AI Expense Splitting Platform",
     description:
-      "A terminal-native AI coding CLI designed for an interactive developer experience, featuring session management, a command palette, and a customizable theme system.",
+      "A real-time expense splitting platform with dynamic splits, settlements, and summaries, tested across 10+ groups. Built real-time sync using Convex for instant balance updates, integrated Clerk authentication, and Google Gemini AI with email notifications.",
     technologies: [
-      "TypeScript",
-      "React",
-      "Bun",
-      "OpenTUI",
-      "Hono",
-      "Gemini",
-      "Vercel AI SDK",
-      "Prisma",
-      "Neon",
+      "Next.js",
+      "TailwindCSS",
+      "ShadCN",
+      "Convex",
+      "Clerk",
+      "Inngest",
+      "Google Gemini AI",
     ],
     links: {
-      github: "https://github.com/aarabii/kodaarc",
+      github: "https://github.com/shikhu5804/splitr",
     },
   },
   {
-    name: "Next Flow",
+    name: "BingeBox – Movie Streaming Site",
     description:
-      "A workflow automation platform inspired by n8n, featuring a visual node-based workflow builder, asynchronous task execution, AI integrations, and persistent workflow state.",
+      "A clean, scalable movie and web series streaming platform using TMDB API with 1.4M+ titles, genre filtering, and intuitive categorization. Features Redux state management, Axios API handling, and Vite deployment on Vercel.",
     technologies: [
       "React",
-      "React Flow",
+      "Redux",
+      "TailwindCSS",
+      "Axios",
+      "TMDB API",
+      "Vite",
+      "Vercel",
+    ],
+    links: {
+      github: "https://github.com/shikhu5804/bingebox",
+    },
+  },
+  {
+    name: "Chatty – Real Time Chat App",
+    description:
+      "A full-stack real-time chat application using Socket.IO and MongoDB for instant messaging, message storage, and user presence awareness. Uses Zustand for global state management and secure JWT-based authentication.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Socket.IO",
       "Zustand",
-      "Trigger.dev",
-      "Gemini API",
-      "Transloadit",
-      "Neon",
-      "PostgreSQL",
-      "Prisma",
+      "TailwindCSS",
+      "JWT",
     ],
     links: {
-      live: "https://next-flow-automation.vercel.app/",
-      github: "https://github.com/aarabii/next-flow",
-    },
-  },
-  {
-    name: "TestIQ",
-    description:
-      "A CLI-based RAG pipeline for intelligent code analysis and test generation, using AST-level code chunking, local LLM inference, vector retrieval, and a self-correcting validation loop.",
-    technologies: [
-      "Python",
-      "LangChain",
-      "ChromaDB",
-      "Ollama",
-      "CodeLlama",
-      "Tree-sitter",
-      "RAG",
-    ],
-    links: {
-      github: "https://github.com/aarabii/testiq",
-    },
-  },
-  {
-    name: "Ideascribe",
-    description:
-      "A note-taking application with a modern block-based editor and real-time data synchronization for creating and organizing rich, structured notes.",
-    technologies: ["Next.js", "TypeScript", "Convex", "BlockNote"],
-    links: {
-      github: "https://github.com/aarabii/ideascribe",
-      live: "https://ideascribe.vercel.app/",
+      github: "https://github.com/shikhu5804/chatty",
     },
   },
 ];
 
-export const works: Project[] = [
-  {
-    name: "VidyaMarg",
-    description:
-      "A full-stack AI-powered learning path generator that creates personalized, structured learning roadmaps with graph-based topic relationships and an interactive visual learning experience.",
-    technologies: [
-      "Next.js",
-      "FastAPI",
-      "LLaMA 3.1 70B",
-      "Groq",
-      "NetworkX",
-      "React Flow",
-      "Supabase",
-    ],
-    links: {},
-  },
-
-  {
-    name: "Curely",
-    description:
-      "A real-time voice AI medical assistant that enables natural voice conversations through speech recognition, intelligent multi-model routing, and low-latency AI responses.",
-    technologies: [
-      "VAPI",
-      "Whisper",
-      "Gemini",
-      "OpenRouter",
-      "LLM",
-      "Voice AI",
-    ],
-    links: {},
-  },
-  {
-    name: "Orphia",
-    description:
-      "An AI-powered text-to-music generation platform that transforms natural language prompts into generated music using deep learning-based music generation models.",
-    technologies: [
-      "Next.js",
-      "Python",
-      "Meta MusicGen",
-      "PyTorch",
-      "Hugging Face",
-    ],
-    links: {},
-  },
-];
+export const works: Project[] = selected_works;

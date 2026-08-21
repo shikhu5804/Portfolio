@@ -11,7 +11,7 @@ export const get404Url = (): string => {
   if (typeof window !== "undefined") {
     return `${window.location.origin}/`;
   }
-  return "https://aarabii.me/";
+  return "https://shikharverma.me/";
 };
 
 export const generateSVGTrophy = (
@@ -202,7 +202,7 @@ export const generateSVGTrophy = (
 
   <!-- SERIAL MARK -->
   <path d="M1470 828l14-16M1487 828l14-16M1504 828l14-16" stroke="${CREAM}" stroke-width="4" opacity=".5"/>
-  <text x="1536" y="855" text-anchor="end" class="signature-font" style="font-family: ${fontSignature};" font-size="32" fill="rgba(241,238,229,0.85)">aarabii...</text>
+  <text x="1536" y="855" text-anchor="end" class="signature-font" style="font-family: ${fontSignature};" font-size="32" fill="rgba(241,238,229,0.85)">shikharverma...</text>
 </svg>`;
 };
 

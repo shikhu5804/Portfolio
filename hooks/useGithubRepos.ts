@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Project } from "@/constant/projects";
 import { GithubRepo } from "@/app/projects/_components/GithubRepoCard";
 
-const REPOS_CACHE_KEY = "aarab_github_repos_data";
+const REPOS_CACHE_KEY = "shikhar_github_repos_data";
 const CACHE_TTL_MS = 60 * 60 * 1000; // 1 hour TTL to prevent GitHub rate-limiting
 const ITEMS_PER_PAGE = 6;
 
@@ -56,7 +56,7 @@ export const useGithubRepos = (
 
     try {
       const res = await fetch(
-        "https://api.github.com/users/aarabii/repos?sort=updated&per_page=100"
+        "https://api.github.com/users/shikhu5804/repos?sort=updated&per_page=100"
       );
       if (!res.ok) {
         if (res.status === 403) {

@@ -21,7 +21,7 @@ interface CachedStats {
   timestamp: number;
 }
 
-const STORAGE_KEY = "aarab's-portfolio-data";
+const STORAGE_KEY = "shikhar's-portfolio-data";
 const ONE_WEEK_MS = 7 * 24 * 60 * 60 * 1000;
 
 export const useCodingStats = (): CodingStats => {
@@ -35,7 +35,7 @@ export const useCodingStats = (): CodingStats => {
 
     const githubHandle =
       socials.find((s) => s.name.toLowerCase() === "github")?.handle ||
-      "aarabii";
+      "shikhu5804";
 
     const loadStats = async () => {
       let cached: CachedStats | null = null;

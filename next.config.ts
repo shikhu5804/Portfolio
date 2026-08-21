@@ -78,12 +78,12 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/email",
-        destination: "mailto:aarab.nishchal@gmail.com",
+        destination: "mailto:vrmashikhar@gmail.com",
         permanent: true,
       },
       {
         source: "/direct-resume",
-        destination: "/docs/aarab_nishchal_resume.pdf",
+        destination: "/docs/shikhar_verma_resume.pdf",
         permanent: true,
       },
       ...socials.map((social) => ({

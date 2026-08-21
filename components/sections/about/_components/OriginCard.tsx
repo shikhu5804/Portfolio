@@ -43,9 +43,9 @@ export const OriginCard = ({
           >
             <Image
               src={currentImage}
-              alt="Aarab Nishchal"
+              alt="Shikhar Verma"
               fill
-              className="object-cover object-top grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105"
+              className="object-cover object-[center_65%] grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-105"
               sizes="(max-width: 768px) 100vw, 33vw"
             />
           </motion.div>
