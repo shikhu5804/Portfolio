@@ -2,6 +2,7 @@ export interface Project {
   name: string;
   description: string;
   technologies: string[];
+  image?: string;
   links: {
     live?: string;
     github?: string;
@@ -12,7 +13,8 @@ export const selected_works: Project[] = [
   {
     name: "Splitr – AI Expense Splitting Platform",
     description:
-      "A real-time expense splitting platform with dynamic splits, settlements, and summaries, tested across 10+ groups. Built real-time sync using Convex for instant balance updates, integrated Clerk authentication, and Google Gemini AI with email notifications.",
+      "Built a real-time expense-splitting platform with dynamic splits, settlements, and detailed summaries, tested across 10+ user groups processing 100+ expenses. Engineered real-time balance sync with Convex (<500ms latency), integrated Clerk auth and Gemini AI for automated expense categorization, containerized with Docker to reduce setup time from 8 to 3 minutes.",
+    image: "/images/projects/splitr.png",
     technologies: [
       "Next.js",
       "TailwindCSS",
@@ -21,32 +23,36 @@ export const selected_works: Project[] = [
       "Clerk",
       "Inngest",
       "Google Gemini AI",
+      "Docker",
     ],
     links: {
-      github: "https://github.com/shikhu5804/splitr",
+      live: "https://splitr-main.vercel.app/",
+      github: "https://github.com/shikhu5804/Splitr-main",
     },
   },
   {
     name: "BingeBox – Movie Streaming Site",
     description:
-      "A clean, scalable movie and web series streaming platform using TMDB API with 1.4M+ titles, genre filtering, and intuitive categorization. Features Redux state management, Axios API handling, and Vite deployment on Vercel.",
+      "Built a movie discovery platform using the TMDB API, surfacing 1.4M+ titles through genre filtering, advanced search, categorized browsing, movie details, and recommendations. Reduced redundant API calls by 80% through debounced search and optimized Axios handling, containerized with Docker and deployed on Vercel with sub-15s build times.",
+    image: "/images/projects/bingebox.png",
     technologies: [
       "React",
       "Redux",
       "TailwindCSS",
       "Axios",
-      "TMDB API",
-      "Vite",
+      "Docker",
       "Vercel",
     ],
     links: {
-      github: "https://github.com/shikhu5804/bingebox",
+      live: "https://bingebox-gamma.vercel.app/",
+      github: "https://github.com/shikhu5804/Movie-WebApp",
     },
   },
   {
-    name: "Chatty – Real Time Chat App",
+    name: "Chatty – Real-Time Chat App",
     description:
-      "A full-stack real-time chat application using Socket.IO and MongoDB for instant messaging, message storage, and user presence awareness. Uses Zustand for global state management and secure JWT-based authentication.",
+      "Developed a full-stack real-time chat application powered by Socket.IO and MongoDB, supporting 10+ concurrent users with persistent message history and live presence tracking. Managed global state with Zustand for consistent UI updates, achieving <200ms average message delivery latency.",
+    image: "/images/projects/chatty.png",
     technologies: [
       "React",
       "Node.js",
@@ -55,10 +61,10 @@ export const selected_works: Project[] = [
       "Socket.IO",
       "Zustand",
       "TailwindCSS",
-      "JWT",
     ],
     links: {
-      github: "https://github.com/shikhu5804/chatty",
+      live: "https://chat-app-steel-psi-31.vercel.app/",
+      github: "https://github.com/shikhu5804/Chat-app",
     },
   },
 ];

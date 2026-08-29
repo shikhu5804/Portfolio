@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { useScroll, useMotionValueEvent } from "motion/react";
 import { profile } from "@/constant";
 import { SectionHeader } from "@/components/common";
 
@@ -30,46 +29,30 @@ export const AboutSection = ({
   const containerRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
+  const [isManuallySelected, setIsManuallySelected] = useState(false);
   const totalItems = slides.length;
-
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start start", "end end"],
-  });
-
-  useMotionValueEvent(scrollYProgress, "change", (latest) => {
-    // Responsive slide calculation over tighter 140vh scroll height
-    const index = Math.min(Math.floor(latest * totalItems), totalItems - 1);
-    setActiveIndex(Math.max(0, index));
-  });
 
   const handleSelectIndex = (index: number) => {
     setActiveIndex(index);
-    if (!containerRef.current) return;
-    const rect = containerRef.current.getBoundingClientRect();
-    const scrollTop = window.scrollY + rect.top;
-    const scrollHeight = rect.height - window.innerHeight;
-    const targetScroll =
-      scrollTop + (index / totalItems) * Math.max(0, scrollHeight);
-    window.scrollTo({ top: targetScroll, behavior: "smooth" });
+    setIsManuallySelected(true);
   };
 
-  // Optional subtle auto-rotate timer if stationary and not hovered
+  // Subtle auto-rotate timer if not hovered and not manually selected by user
   useEffect(() => {
-    if (isHovered) return;
+    if (isHovered || isManuallySelected) return;
 
     const timer = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % totalItems);
-    }, 4500);
+    }, 5000);
 
     return () => clearInterval(timer);
-  }, [isHovered, totalItems]);
+  }, [isHovered, isManuallySelected, totalItems]);
 
   return (
-    <div ref={containerRef} className="relative h-[140vh] w-full">
+    <div ref={containerRef} className="relative w-full">
       <section
         id="about"
-        className="sticky top-20 w-full select-none px-6 py-12 md:px-12 lg:px-20"
+        className="w-full select-none px-6 py-12 md:px-12 lg:px-20"
       >
         <div
           onMouseEnter={() => setIsHovered(true)}

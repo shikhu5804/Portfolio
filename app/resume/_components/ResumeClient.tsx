@@ -79,19 +79,12 @@ export default function ResumeClient() {
             transition={{ duration: 0.6, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
             className="relative w-full h-162 sm:h-225 rounded-3xl overflow-hidden border border-border/60 bg-black/60 shadow-2xl backdrop-blur-xl"
           >
-            <object
+            <iframe
               key={key}
-              data={`${RESUME_PATH}#toolbar=1&navpanes=0&scrollbar=1`}
-              type="application/pdf"
+              src={`${RESUME_PATH}#view=FitH&toolbar=1`}
               className="w-full h-full border-0"
-              aria-label="Shikhar Verma Resume PDF"
-            >
-              <iframe
-                src={`${RESUME_PATH}#toolbar=1&navpanes=0&scrollbar=1`}
-                className="w-full h-full border-0"
-                title="Shikhar Verma Resume PDF"
-              />
-            </object>
+              title="Shikhar Verma Resume PDF"
+            />
           </motion.div>
         </main>
 

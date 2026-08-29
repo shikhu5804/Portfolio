@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "motion/react";
 import { TechBadge } from "@/components/common/tech-badge";
 import { SectionGradiendBg } from "../../../mics/bg/SectionGradiendBg";
@@ -8,6 +9,7 @@ export interface WorkCardProps {
   name: string;
   description: string;
   technologies: string[];
+  image?: string;
   links: {
     live?: string;
     github?: string;
@@ -33,6 +35,7 @@ export const WorkCard = ({
   name,
   description,
   technologies,
+  image,
   links,
   index = 0,
 }: WorkCardProps) => {
@@ -56,9 +59,22 @@ export const WorkCard = ({
       }}
       className="group relative flex h-full w-full flex-col overflow-hidden rounded-[28px] border border-border bg-card shadow-2xl transition-colors duration-300 hover:border-card-border-hover hover:shadow-accent/5"
     >
-      {/* Gradient Background */}
-      <div className="relative h-44 w-full shrink-0 overflow-hidden sm:h-52">
-        <SectionGradiendBg colors={gradientColors} shape="truchet" />
+      {/* Top Banner Image or Gradient Background */}
+      <div className="relative h-48 sm:h-56 w-full shrink-0 overflow-hidden">
+        {image ? (
+          <>
+            <Image
+              src={image}
+              alt={name}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className="object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/60 pointer-events-none" />
+          </>
+        ) : (
+          <SectionGradiendBg colors={gradientColors} shape="truchet" />
+        )}
       </div>
 
       {/* Dark Folder Section */}

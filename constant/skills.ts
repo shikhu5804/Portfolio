@@ -7,6 +7,8 @@ import {
   FaNodeJs,
   FaHtml5,
   FaSquareJs,
+  FaDocker,
+  FaAws,
 } from "react-icons/fa6";
 
 import {
@@ -24,6 +26,7 @@ import {
   SiRender,
   SiGooglecloud,
   SiGreensock,
+  SiRedis,
 } from "react-icons/si";
 
 import { BiLogoPostgresql } from "react-icons/bi";
@@ -72,6 +75,7 @@ export const skillsData: SkillsDataProps[] = [
     data: [
       { title: "PostgreSQL", logoComponent: BiLogoPostgresql, color: "#4169E1" },
       { title: "MongoDB", logoComponent: SiMongodb, color: "#47A248" },
+      { title: "Redis", logoComponent: SiRedis, color: "#DC382D" },
       { title: "Firebase", logoComponent: SiFirebase, color: "#FFCA28" },
       { title: "Convex", logoComponent: MdApi, color: "#EE342F" },
       { title: "Mongoose", logoComponent: SiMongodb, color: "#880000" },
@@ -82,8 +86,10 @@ export const skillsData: SkillsDataProps[] = [
     data: [
       { title: "Git", logoComponent: FaGitAlt, color: "#F05032" },
       { title: "GitHub", logoComponent: FaGithub, color: "#FFFFFF" },
+      { title: "Docker", logoComponent: FaDocker, color: "#2496ED" },
       { title: "Vercel", logoComponent: SiVercel, color: "#FFFFFF" },
       { title: "Render", logoComponent: SiRender, color: "#46E3B7" },
+      { title: "AWS (S3, EC2)", logoComponent: FaAws, color: "#FF9900" },
       { title: "Google Cloud Platform", logoComponent: SiGooglecloud, color: "#4285F4" },
       { title: "Inngest", logoComponent: MdApi, color: "#326CE5" },
       { title: "Postman", logoComponent: SiPostman, color: "#FF6C37" },

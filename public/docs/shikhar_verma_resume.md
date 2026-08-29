@@ -1,77 +1,69 @@
 # Shikhar Verma
 
 Kanpur, Uttar Pradesh | +91-8604734805 · vrmashikhar@gmail.com
-[linkedin.com/in/vrmashikhar](https://linkedin.com/in/vrmashikhar) · [github.com/shikhu5804](https://github.com/shikhu5804)
+[Portfolio](https://shikharverma.vercel.app) · [LinkedIn](https://linkedin.com/in/vrmashikhar) · [GitHub](https://github.com/shikhu5804)
 
 ---
 
 ## Education
 
 **Indian Institute of Information Technology, Ranchi** — Ranchi, Jharkhand  
-*Bachelor of Technology in Electronics and Communication Engineering*, Grade: 8.16  
-Aug. 2023 – May 2027
-
-**Delhi Public School, Kanpur** — Kanpur, Uttar Pradesh  
-*Senior Secondary Education (CBSE)*, Percentage: 90%  
-2022
+*Bachelor of Technology in Electronics and Communication Engineering*, Grade: 8.44  
+Aug 2023 – May 2027
 
 ---
 
 ## Experience
 
 ### Frontend Web Intern — ReachFast.ai
-*May 2025 – Aug 2025* | Remote
+*May 2025 – Aug 2025* | Remote | Certificate
 
-- Built Email Automation UI using **React.js**, Next.js, and Tailwind CSS with focus on clean architecture and responsive design.
-- Integrated **Google Apps Script** to automate form data storage in Google Sheets, streamlining data collection workflows.
-- Contributed to key frontend features and layout improvements to enhance usability, consistency, and user experience.
-- Collaborated with backend systems using TypeScript and **Firestore**, ensuring smooth data flow and efficient state handling.
-- Refactored components into reusable modules and redesigned onboarding to improve maintainability and adoption.
+- Built an Email Automation UI using **React.js**, Next.js, and Tailwind CSS across 4+ product features and workflows.
+- Integrated **Google Apps Script** with Google Sheets to automate form data collection across 2+ workflows efficiently.
+- Worked with **TypeScript** and Firestore alongside backend engineers, exploring **AWS SES** for reliable email delivery.
+- Refactored components and redesigned onboarding, improving maintainability and UX across the application.
 
 ---
 
 ## Projects
 
 ### Splitr – AI Expense Splitting Platform
-**Next.js · TailwindCSS · ShadCN · Convex · Clerk · Inngest · Google Gemini AI**  
-[GitHub](https://github.com/shikhu5804/splitr)
+**Next.js · TailwindCSS · ShadCN · Convex · Clerk · Inngest · Google Gemini AI · Docker**  
+[Website](https://splitr-main.vercel.app/) | [GitHub](https://github.com/shikhu5804/Splitr-main)
 
-- Built a real-time expense splitting platform with **dynamic splits**, settlements, and summaries, tested across 10+ groups.
-- Implemented real-time sync using Convex for instant balance updates across multiple users and sessions.
-- Integrated **Clerk authentication** and Gemini AI with monthly email notifications for smart expense tracking.
-- Developed a responsive UI using Next.js, TailwindCSS, and ShadCN for seamless cross-device experience.
+- Built a real-time expense-splitting platform with dynamic splits, settlements, and detailed summaries, tested across 10+ user groups processing 100+ expenses.
+- Engineered real-time balance synchronization with **Convex**, achieving <500ms sync latency, and integrated Clerk authentication and Gemini AI for automated expense categorization.
+- Designed a responsive, accessible UI using Next.js, TailwindCSS, and ShadCN, containerized with **Docker** to reduce environment setup time from 8 to 3 minutes for faster local development and deployment.
 
 ### BingeBox – Movie Streaming Site
-**React · Redux · TailwindCSS · Axios · TMDB API · Vite · Vercel**  
-[GitHub](https://github.com/shikhu5804/bingebox)
+**React · Redux · TailwindCSS · Axios · Docker · Vercel**  
+[Website](https://bingebox-gamma.vercel.app/) | [GitHub](https://github.com/shikhu5804/Movie-WebApp)
 
-- Identified the need for a clean, scalable, and efficient platform to explore and stream movies and web series seamlessly.
-- Built a dynamic streaming platform using TMDB API with **1.4M+** titles, genre filtering, and intuitive categorization.
-- Used **Redux** for scalable state management, Axios for API handling, and TailwindCSS for a responsive, consistent design.
-- Deployed on Vercel using Vite, enabling fast navigation, interactive search, and optimized overall performance.
+- Built a movie discovery platform using the **TMDB API**, surfacing 1.4M+ titles through genre filtering, advanced search, categorized browsing, movie details, and recommendations.
+- Reduced redundant API calls by 80% through debounced search and optimized Axios request handling, while Redux managed shared state across 10+ components.
+- Containerized the application with **Docker** and deployed on Vercel, completing 15+ production deployments with sub-15-second build times.
 
-### Chatty – Real Time Chat App
+### Chatty – Real-Time Chat App
 **React · Node.js · Express · MongoDB · Socket.IO · Zustand · TailwindCSS**  
-[GitHub](https://github.com/shikhu5804/chatty)
+[Website](https://chat-app-steel-psi-31.vercel.app/) | [GitHub](https://github.com/shikhu5804/Chat-app)
 
-- Recognized the need for a fast, interactive platform to enable real-time conversations with user presence awareness.
-- Built a full-stack chat app using **Socket.IO** and MongoDB for instant messaging, message storage, and user tracking.
-- Used Zustand for global state management to ensure smooth, consistent, and efficient UI updates across components.
-- Designed a clean, responsive UI with TailwindCSS, deployed on Vercel with secure, scalable **JWT**-based authentication.
+- Developed a full-stack real-time chat application powered by **Socket.IO** and MongoDB, supporting 10+ concurrent users with persistent message history and live presence tracking.
+- Managed global state with **Zustand** for consistent UI updates across components, and secured the app with JWT-based authentication, achieving <200ms average message delivery latency.
 
 ---
 
 ## Technical Skills
 
-- **Programming Languages:** C++, C, JavaScript, TypeScript, SQL, NoSQL, HTML/CSS
-- **Frameworks and Libraries:** React, Next.js, Node.js, Express.js, Redux Toolkit, Zustand, Tailwind CSS, ShadCN, GSAP
-- **Database Technologies:** PostgreSQL, MongoDB, Firebase, Convex, Mongoose
-- **Tools and Platforms:** Git, GitHub, Vercel, Render, Google Cloud Platform, Inngest, Postman, VS Code
+- **Languages:** C++, C, JavaScript, TypeScript, SQL
+- **Frontend:** HTML/CSS, React, Next.js, Redux Toolkit, Zustand, Tailwind CSS, ShadCN, GSAP
+- **Backend:** Node.js, Express.js, REST APIs, JWT, bcrypt, Mongoose
+- **Databases:** PostgreSQL, MongoDB, Redis, Firebase, Convex
+- **Tools and Platforms:** Git, GitHub, Docker, Vercel, Render, AWS (S3, EC2), Google Cloud Platform, Inngest, Postman
 
 ---
 
 ## Awards & Honors
 
-- Selected for the **SIH-2023 (Smart India Hackathon)** internal round for innovative project ideas.
-- Ranked among the **top 5%** of JEE aspirants nationwide and secured 90% in Class 12th board exams.
-- Solved **300+ DSA problems** across multiple coding platforms, strengthening problem-solving and algorithmic skills.
+- Ranked in the **top 5%** of JEE aspirants nationwide and scored 90% in Class 12th.
+- Solved **300+ DSA problems** across LeetCode, Codechef, and GFG, strengthening algorithmic problem-solving skills.
+- Reached the internal selection round of **Smart India Hackathon (SIH) 2023** for an innovative project idea.

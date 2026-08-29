@@ -5,13 +5,12 @@ import { motion } from "motion/react";
 
 import { Footer, Navbar } from "@/components/common";
 import { WorkCard } from "@/components/sections/work/_components/WorkCard";
-import { selected_works, works } from "@/constant/projects";
+import { selected_works } from "@/constant/projects";
 import { GithubSection } from "./GithubSection";
 import { ProjectsHeader } from "./ProjectsHeader";
 
 export default function ProjectsClient() {
-  // Combine both arrays from constant/projects.ts
-  const allProjects = [...selected_works, ...works];
+  const allProjects = selected_works;
 
   return (
     <div className="min-h-screen flex flex-col relative text-foreground">
@@ -43,6 +42,7 @@ export default function ProjectsClient() {
                     name={project.name}
                     description={project.description}
                     technologies={project.technologies}
+                    image={project.image}
                     links={project.links}
                     index={idx}
                   />
@@ -60,4 +60,3 @@ export default function ProjectsClient() {
     </div>
   );
 }
-

@@ -34,8 +34,8 @@ export const socials = [
   },
   {
     name: "LeetCode",
-    handle: "shikhu5804",
-    url: "https://leetcode.com/u/shikhu5804",
+    handle: "shiku5804",
+    url: "https://leetcode.com/u/shiku5804/",
     icon: SiLeetcode,
   },
 ] satisfies Social[];

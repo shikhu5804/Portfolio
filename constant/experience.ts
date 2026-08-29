@@ -38,11 +38,10 @@ export const experience: Experience[] = [
     },
     current: false,
     description: [
-      "Built Email Automation UI using React.js, Next.js, and Tailwind CSS with focus on clean architecture and responsive design.",
-      "Integrated Google Apps Script to automate form data storage in Google Sheets, streamlining data collection workflows.",
-      "Contributed to key frontend features and layout improvements to enhance usability, consistency, and user experience.",
-      "Collaborated with backend systems using TypeScript and Firestore, ensuring smooth data flow and efficient state handling.",
-      "Refactored components into reusable modules and redesigned onboarding to improve maintainability and adoption.",
+      "Built an Email Automation UI using React.js, Next.js, and Tailwind CSS across 4+ product features and workflows.",
+      "Integrated Google Apps Script with Google Sheets to automate form data collection across 2+ workflows efficiently.",
+      "Worked with TypeScript and Firestore alongside backend engineers, exploring AWS SES for reliable email delivery.",
+      "Refactored components and redesigned onboarding, improving maintainability and UX across the application.",
     ],
     company: "ReachFast.ai",
     companySite: "https://reachfast.ai/",
@@ -53,6 +52,7 @@ export const experience: Experience[] = [
       "Google Apps Script",
       "TypeScript",
       "Firestore",
+      "AWS SES",
     ],
   },
 ];
